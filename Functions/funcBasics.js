@@ -17,10 +17,17 @@ multiply(3,7);
 // Function called capitalize that takes a string and returns that string with only first
 // letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTH.
 
-function capitalize(anyString) {
-    return anyString.charAt(0).toUpperCase() + anyString.slice(1);
-}
+// function capitalize(anyString) {
+//     return anyString.charAt(0).toUpperCase() + anyString.slice(1);
+// }
 
-let string = "capitalize 1st c";
-let capitalizedString = capitalize(string);
-console.log(capitalizedString);
+// let string = "capitalize 1st c";
+// let capitalizedString = capitalize(string);
+// console.log(capitalizedString);
+
+// Function called lastLetter that takes a string and returns the very last letter of that string
+
+function lastLetter(anyString) {
+   return anyString.charAt(anyString.length-1); 
+}
+lastLetter("johnyx");
